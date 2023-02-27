@@ -37,6 +37,14 @@ const Proyectos = ({modal, setProyecto}) => {
           className="bg-gray-300 hover:bg-gray-400 p-4 rounded-lg shadow-xl flex flex-col gap-5 items-center max-w-xs cursor-pointer"
           onClick={handleProyecto}
         >
+            <h2 className="text-indigo-600 font-bold text-xl" data-video='https://res.cloudinary.com/dqdo4jlkx/video/upload/v1676561174/UpTask_hwq9ui.mp4'>UpTask - MERN</h2>
+            <img className="w-60 md:w-auto" src="/img/proyectos/UpTask.png" alt="Proyecto UpTask" data-frontend='https://github.com/elkincarreno10/UpTask_MERN_frontend' />
+            <p className="line-clamp-4 md:line-clamp-6" data-backend='https://github.com/elkincarreno10/UpTask_MERN_backend'>Proyecto fullstack desarrollado con el stack MERN, este proyecto fue mi favorito del curso de react debido a la complejidad que llevaba, en este proyecto aprendí muchas cosas: TailwindCSS, React-Router-DOM, node.js, HeadlessUI que mediante componentes permite darle más interactividad a nuestra app, Socket.io que es una excelente herramienta para tener aplicaciones en tiempo real. En general este proyecto me permitió entender muchos conceptos y me gustó mucho debido a la complejidad que tuvo pero que al final valió la pena por la excelente app que se diseñó y todo el aprendizaje que me dejó.</p>
+        </div>
+        <div 
+          className="bg-gray-300 hover:bg-gray-400 p-4 rounded-lg shadow-xl flex flex-col gap-5 items-center max-w-xs cursor-pointer"
+          onClick={handleProyecto}
+        >
             <h2 className="text-indigo-600 font-bold text-xl" data-video='https://res.cloudinary.com/dqdo4jlkx/video/upload/v1677030894/BienesRaicesNodeMVC_jwskgw.mp4'>Bienes Raices NodeJS - MVC</h2>
             <img className="w-60 md:w-auto" src="/img/proyectos/BienesRaicesNode.png" alt="Proyecto Bienes Raices NodeJS - MVC" data-frontend='https://github.com/elkincarreno10/bienesRaicesNode' />
             <p className="line-clamp-4 md:line-clamp-6">Primer Proyecto del curso de NodeJs, este proyecto fullstack fue un proyecto muy interesante debido a lo completo que fue, aprendí a trabajar con el ORM Sequelize, y continue mi aprendizaje con Express, como base de datos usamos MySQL, en este proyecto manejamos el patrón de arquitectura MVC y usamos como motor de plantillas (template engine) PugJS, aprendí a autenticar usuarios y a mostrar distinta información en base a esto, además aprendí a subir imágenes con Node y a realizar buenas prácticas con estas imágenes para no corromper la base de datos.</p>
@@ -45,9 +53,9 @@ const Proyectos = ({modal, setProyecto}) => {
           className="bg-gray-300 hover:bg-gray-400 p-4 rounded-lg shadow-xl flex flex-col gap-5 items-center max-w-xs cursor-pointer"
           onClick={handleProyecto}
         >
-            <h2 className="text-indigo-600 font-bold text-xl" data-video='https://res.cloudinary.com/dqdo4jlkx/video/upload/v1676561174/UpTask_hwq9ui.mp4'>UpTask - MERN</h2>
-            <img className="w-60 md:w-auto" src="/img/proyectos/UpTask.png" alt="Proyecto UpTask" data-frontend='https://github.com/elkincarreno10/UpTask_MERN_frontend' />
-            <p className="line-clamp-4 md:line-clamp-6" data-backend='https://github.com/elkincarreno10/UpTask_MERN_backend'>Proyecto fullstack desarrollado con el stack MERN, este proyecto fue mi favorito del curso de react debido a la complejidad que llevaba, en este proyecto aprendí muchas cosas: TailwindCSS, React-Router-DOM, node.js, HeadlessUI que mediante componentes permite darle más interactividad a nuestra app, Socket.io que es una excelente herramienta para tener aplicaciones en tiempo real. En general este proyecto me permitió entender muchos conceptos y me gustó mucho debido a la complejidad que tuvo pero que al final valió la pena por la excelente app que se diseñó y todo el aprendizaje que me dejó.</p>
+            <h2 className="text-indigo-600 font-bold text-xl" data-video='#'>Meeti - MVC</h2>
+            <img className="w-60 md:w-auto" src="/img/proyectos/Meeti.png" alt="Proyecto Meeti - MVC" data-frontend='https://github.com/elkincarreno10/meeti' />
+            <p className="line-clamp-4 md:line-clamp-6">Proyecto del curso de NodeJs, en el cual utlizamos NodeJs, Express y Sequelize para manejar el backend, además aprendí a manejar archivos e imagenes con NodeJs y además en este proyecto incorporamos mapas con Leaflet lo cal me permitió entender el funcionamiento de esta herramienta. Como motor de plantillas (template engine) utlizamos Embedded JavaScript Templating (EJS), en este proyecto también aprendí a autenticar usuarios y a manejar diferentes tipos de consultas con Sequelize para incluir direntes modelos y datos dentro de una sola consulta.</p>
         </div>
         <div 
           className="bg-gray-300 hover:bg-gray-400 p-4 rounded-lg shadow-xl flex flex-col gap-5 items-center max-w-xs cursor-pointer"
