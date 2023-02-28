@@ -53,7 +53,7 @@ const Proyectos = ({modal, setProyecto}) => {
           className="bg-gray-300 hover:bg-gray-400 p-4 rounded-lg shadow-xl flex flex-col gap-5 items-center max-w-xs cursor-pointer"
           onClick={handleProyecto}
         >
-            <h2 className="text-indigo-600 font-bold text-xl" data-video='#'>Meeti - MVC</h2>
+            <h2 className="text-indigo-600 font-bold text-xl" data-video='https://res.cloudinary.com/dqdo4jlkx/video/upload/v1677605092/Meeti_crrod0.mp4'>Meeti - MVC</h2>
             <img className="w-60 md:w-auto" src="/img/proyectos/Meeti.png" alt="Proyecto Meeti - MVC" data-frontend='https://github.com/elkincarreno10/meeti' />
             <p className="line-clamp-4 md:line-clamp-6">Proyecto del curso de NodeJs, en el cual utlizamos NodeJs, Express y Sequelize para manejar el backend, además aprendí a manejar archivos e imagenes con NodeJs y además en este proyecto incorporamos mapas con Leaflet lo cal me permitió entender el funcionamiento de esta herramienta. Como motor de plantillas (template engine) utlizamos Embedded JavaScript Templating (EJS), en este proyecto también aprendí a autenticar usuarios y a manejar diferentes tipos de consultas con Sequelize para incluir direntes modelos y datos dentro de una sola consulta.</p>
         </div>
