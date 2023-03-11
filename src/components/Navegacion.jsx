@@ -21,7 +21,7 @@ const Navegacion = () => {
           <Link 
             to='/' 
             className={`${location.pathname === '/' ? 'text-white bg-indigo-500' : ''} ${mostrarMenu ? 'block' : 'hidden'} md:block cursor-pointer p-4 hover:text-white hover:bg-indigo-500`}
-          >Formación</Link>
+          >Sobre Mi</Link>
           <Link 
             to='/habilidades' 
             className={`${location.pathname === '/habilidades' ? 'text-white bg-indigo-500' : ''} ${mostrarMenu ? 'block' : 'hidden'} md:block  cursor-pointer p-4 hover:text-white hover:bg-indigo-500`}
@@ -30,10 +30,6 @@ const Navegacion = () => {
             to='/proyectos' 
             className={`${location.pathname === '/proyectos' ? 'text-white bg-indigo-500' : ''} ${mostrarMenu ? 'block' : 'hidden'} md:block cursor-pointer p-4 hover:text-white hover:bg-indigo-500`}
           >Proyectos</Link>
-          <Link 
-            to='/contacto' 
-            className={`${location.pathname === '/contacto' ? 'text-white bg-indigo-500' : ''} ${mostrarMenu ? 'block' : 'hidden'} md:block cursor-pointer p-4 hover:text-white hover:bg-indigo-500`}
-          >Contacto</Link>
         </nav>
     </div>
     
