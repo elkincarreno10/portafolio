@@ -30,6 +30,30 @@ const Formacion = () => {
         <h1 className="uppercase text-2xl font-extrabold">Formación</h1>
         <div className="grid md:grid-cols-2 gap-8 mt-8 text-left">
           <div className="bg-gray-200 p-3 shadow-lg rounded-lg">
+            <h2 className="text-xl font-bold mb-4">Ultimate AWS Certified Developer Associate 2023 <span className="text-indigo-500">(Udemy 34-Horas)</span></h2>
+            <p>- Fundamentos de AWS: IAM, EC2, Load Balancing, Auto Scaling, EBS, Route 53, RDS, ElastiCache, S3</p>
+            <p>- AWS CLI: CLI setup, uso en EC2, buenas prácticas, SDK, uso avanzado</p>
+            <p>- Adecuado deploy de una aplicación: AWS Elastic Beanstalk, CICD, CodeCommit, CodePipeline, CodeBuild, CodeDeploy</p>
+            <p>- Infraestructura como código con AWS CloudFormation</p>
+            <p>- Supervisión, solución de problemas y auditoría: AWS CloudWatch, X-Ray, CloudTrail</p>
+            <p>- AWS Integration & Messaging: SQS, SNS, Kinesis</p>
+            <p>- AWS Serverless: AWS Lambda, DynamoDB, API Gateway, Cognito, Serverless Application Model (SAM)</p>
+            <p>- ECS, ECR & Fargate: Docker en AWS</p>
+            <p>- AWS Security: KMS, Encryption SDK, SSM Parameter Store, IAM Policies</p>
+            <p>- Otros servicios de AWS (Descripción General): CloudFront, Step Functions, SWF, Redshift</p>
+          </div>
+          <div className="bg-gray-200 p-3 shadow-lg rounded-lg">
+            <h2 className="text-xl font-bold mb-4">TypeScript sin Fronteras: Guía Definitiva <span className="text-indigo-500">(Udemy 5.5-Horas)</span></h2>
+            <p>- Tipos Básicos</p>
+            <p>- Tipos Avanzados</p>
+            <p>- Programación orientada a objetos</p>
+            <p>- Genéricos</p>
+            <p>- Módulos</p>
+            <p>- Integración con JavaScript</p>
+            <p>- Integración con NodeJS</p>
+            <p>- Integración con ReactJS</p>
+          </div>
+          <div className="bg-gray-200 p-3 shadow-lg rounded-lg">
             <h2 className="text-xl font-bold mb-4">Node.js - Bootcamp Desarrollo Web inc. MVC y REST APIs <span className="text-indigo-500">(Udemy 42-Horas)</span></h2>
             <p>- Nodejs y Express Desarrollo de sitios y aplicaciones Web</p>
             <p>- Agregar bases de datos a tus aplicaciones Node (MySQL, PostgreSQL y MongoDB)</p>

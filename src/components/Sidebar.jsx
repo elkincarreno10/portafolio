@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const Sidebar = () => {
   return (
     <aside className="bg-indigo-600 p-6 md:w-1/4 lg:w-1/4 md:h-screen md:sticky md:top-0 flex flex-col items-center">
-        <Link to="/">
+        <Link to="/" className="mt-8 2xl:mt-32">
           <img src="/logo.gif" alt="logo" />
         </Link>
         <h1 className="lg:text-xl text-white font-bold text-center mt-2 md:mt-28 md:break-all lg:break-normal">Elkin Carreño <span className="text-sky-300 font-extrabold">(Programador Fullstack)</span></h1>
