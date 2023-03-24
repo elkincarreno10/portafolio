@@ -9,6 +9,10 @@ const Habilidades = () => {
             <img loading="lazy" src="img/NodeJs.png" alt="Logo NodeJs" className="w-52 mx-auto hover:animate-pulse" />
         </div>
         <div>
+            <p className="text-center text-2xl font-extrabold mb-6">Python</p>
+            <img loading="lazy" src="img/Python.png" alt="Logo Python" className="w-52 mx-auto hover:animate-pulse" />
+        </div>
+        <div>
             <p className="text-center text-2xl font-extrabold mb-6">React</p>
             <img loading="lazy" src="img/React.png" alt="Logo React" className="w-52 mx-auto hover:animate-pulse" />
         </div>
@@ -33,20 +37,16 @@ const Habilidades = () => {
             <img loading="lazy" src="img/MySQL.png" alt="Logo MySQL" className="w-52 mx-auto hover:animate-pulse" />
         </div>
         <div>
+            <p className="text-center text-2xl font-extrabold mb-6">PostgreSQL</p>
+            <img loading="lazy" src="img/PostgreSQL.png" alt="Logo PostgreSQL" className="w-52 mx-auto hover:animate-pulse" />
+        </div>
+        <div>
             <p className="text-center text-2xl font-extrabold mb-6">VueJs</p>
             <img loading="lazy" src="img/VueJs.png" alt="Logo VueJs" className="w-52 mx-auto hover:animate-pulse" />
         </div>
         <div>
-            <p className="text-center text-2xl font-extrabold mb-6">SASS</p>
-            <img loading="lazy" src="img/SASS.png" alt="Logo SASS" className="w-52 mx-auto hover:animate-pulse" />
-        </div>
-        <div>
             <p className="text-center text-2xl font-extrabold mb-6">TailwindCSS</p>
             <img loading="lazy" src="img/TailwindCSS.png" alt="Logo TailwindCSS" className="w-52 mx-auto hover:animate-pulse" />
-        </div>
-        <div>
-            <p className="text-center text-2xl font-extrabold mb-6">Python</p>
-            <img loading="lazy" src="img/Python.png" alt="Logo Python" className="w-52 mx-auto hover:animate-pulse" />
         </div>
         <div>
             <p className="text-center text-2xl font-extrabold mb-6">PHP</p>

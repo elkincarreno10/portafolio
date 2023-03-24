@@ -5,7 +5,7 @@ const Formacion = () => {
         <h1 className="uppercase text-2xl font-extrabold">Sobre Mi</h1>
         <div className="mt-6 mb-10 space-y-3 text-left">
           <p>
-            <span className="font-bold">Ingeniero Civil y Programador fullstack</span> en diferentes tecnologías en las que se destacan principalmente <span className="font-bold">Javascript</span>, en el cual puedo ofrecer soluciones eficientes y con buenas prácticas de programación tanto del lado del cliente como del servidor mediante <span className="font-bold">ReactJs y NodeJs</span>. Además de esto puedo ofrecer soluciones en otras tecnologías como <span className="font-bold">Python</span> y puedo utilizar sistemas de control de versiones como <span className="font-bold">Git y GitHub</span> mediante el flujo de trabajo <span className="font-bold">Git Flow</span>.
+            <span className="font-bold">Ingeniero Civil y Programador fullstack</span> en diferentes tecnologías en las que se destacan principalmente <span className="font-bold">Javascript y Python</span>, en las cuales puedo ofrecer soluciones eficientes y con buenas prácticas de programación tanto del lado del cliente con <span className="font-bold">ReactJs</span> como del servidor mediante <span className="font-bold">NodeJs y FastAPI</span>. Además, puedo utilizar sistemas de control de versiones como <span className="font-bold">Git y GitHub</span> mediante el flujo de trabajo <span className="font-bold">Git Flow</span>.
           </p>
           <p>
             Mientras me formaba como programador he adquirido experiencia con los servicios de computación en la nube ofrecidos por <span className="font-bold">AWS</span> como son <span className="font-bold">S3, EC2, ECS, ApiGateway, DynamoDB y Lambda</span>, entendiendo como aplicar estos servicios para crear proyectos que sean eficientes y sean fácilmente escalables mediante <span className="font-bold">AWS CDK</span>.
@@ -27,89 +27,43 @@ const Formacion = () => {
           </a>
         </div>
 
-        <h1 className="uppercase text-2xl font-extrabold">Formación</h1>
-        <div className="grid md:grid-cols-2 gap-8 mt-8 text-left">
-          <div className="bg-gray-200 p-3 shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold mb-4">Ultimate AWS Certified Developer Associate 2023 <span className="text-indigo-500">(Udemy 34-Horas)</span></h2>
-            <p>- Fundamentos de AWS: IAM, EC2, Load Balancing, Auto Scaling, EBS, Route 53, RDS, ElastiCache, S3</p>
-            <p>- AWS CLI: CLI setup, uso en EC2, buenas prácticas, SDK, uso avanzado</p>
-            <p>- Adecuado deploy de una aplicación: AWS Elastic Beanstalk, CICD, CodeCommit, CodePipeline, CodeBuild, CodeDeploy</p>
-            <p>- Infraestructura como código con AWS CloudFormation</p>
-            <p>- Supervisión, solución de problemas y auditoría: AWS CloudWatch, X-Ray, CloudTrail</p>
-            <p>- AWS Integration & Messaging: SQS, SNS, Kinesis</p>
-            <p>- AWS Serverless: AWS Lambda, DynamoDB, API Gateway, Cognito, Serverless Application Model (SAM)</p>
-            <p>- ECS, ECR & Fargate: Docker en AWS</p>
-            <p>- AWS Security: KMS, Encryption SDK, SSM Parameter Store, IAM Policies</p>
-            <p>- Otros servicios de AWS (Descripción General): CloudFront, Step Functions, SWF, Redshift</p>
+        <h1 className="uppercase text-2xl font-extrabold mt-16">Formación</h1>
+        <div className="grid md:grid-cols-2 gap-8 mt-8 text-left mb-24">
+          <div className="bg-gray-200 p-5 shadow-lg shadow-indigo-600 rounded-lg">
+            <h2 className="text-xl font-bold mb-4">Ultimate AWS Certified Developer Associate 2023 <span className="text-indigo-500">(Udemy)</span></h2>
+            <h3 className="text-indigo-600 font-bold">- Duración: <span className="font-normal text-black">34 Horas</span></h3>
+            <p className="text-indigo-600 font-bold">- Tecnologías: <span className="font-normal text-black">S3, EC2, Funciones Lambda, DynamoDB, APIGateway, CloudFormation</span></p>
+            <p className="text-indigo-600 font-bold">- Certificado: <a target='_blank' href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-a6ad240d-ba45-485e-a474-4ccb2c02ebf5.pdf" className="font-bold text-black hover:text-gray-700">Ver Certificado</a></p>
           </div>
-          <div className="bg-gray-200 p-3 shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold mb-4">TypeScript sin Fronteras: Guía Definitiva <span className="text-indigo-500">(Udemy 5.5-Horas)</span></h2>
-            <p>- Tipos Básicos</p>
-            <p>- Tipos Avanzados</p>
-            <p>- Programación orientada a objetos</p>
-            <p>- Genéricos</p>
-            <p>- Módulos</p>
-            <p>- Integración con JavaScript</p>
-            <p>- Integración con NodeJS</p>
-            <p>- Integración con ReactJS</p>
+          <div className="bg-gray-200 p-5 shadow-lg shadow-indigo-600 rounded-lg">
+            <h2 className="text-xl font-bold mb-4">TypeScript sin Fronteras: Guía Definitiva <span className="text-indigo-500">(Udemy)</span></h2>
+            <h3 className="text-indigo-600 font-bold">- Duración: <span className="font-normal text-black">5.5 Horas</span></h3>
+            <p className="text-indigo-600 font-bold">- Tecnologías: <span className="font-normal text-black">TypeScript, Integración con React, NodeJs</span></p>
+            <p className="text-indigo-600 font-bold">- Certificado: <a target='_blank' href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-ef6a40c6-1164-42a0-9122-9563ff36be79.pdf" className="font-bold text-black hover:text-gray-700">Ver Certificado</a></p>
           </div>
-          <div className="bg-gray-200 p-3 shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold mb-4">Node.js - Bootcamp Desarrollo Web inc. MVC y REST APIs <span className="text-indigo-500">(Udemy 42-Horas)</span></h2>
-            <p>- Nodejs y Express Desarrollo de sitios y aplicaciones Web</p>
-            <p>- Agregar bases de datos a tus aplicaciones Node (MySQL, PostgreSQL y MongoDB)</p>
-            <p>- Utilizar un ORM para acelerar el proceso de crear aplicaciones</p>
-            <p>- Aprender la arquitectura MVC para crear sitios y aplicaciones</p>
-            <p>- Integrar Template Engines como Pug</p>
-            <p>- Subir Archivos en Node</p>
-            <p>- Autenticar Usuarios</p>
-            <p>- Enviar Emails</p>
-            <p>- Integrar Webpack, axios, JavaScript en tus aplicaciones Node</p>
-            <p>- Integrar Mapas (Leaflet) en tus aplicaciones</p>
-            <p>- Utilizar Postgis en tus aplicaciones Node</p>
-            <p>- Crear increibles proyectos Node, en todos los videos tendrás mucho aprendizaje</p>
-            <p>- Crear REST API's en Node</p>
+          <div className="bg-gray-200 p-5 shadow-lg shadow-indigo-600 rounded-lg">
+            <h2 className="text-xl font-bold mb-4">Node.js - Bootcamp Desarrollo Web inc. MVC y REST APIs <span className="text-indigo-500">(Udemy)</span></h2>
+            <h3 className="text-indigo-600 font-bold">- Duración: <span className="font-normal text-black">42 Horas</span></h3>
+            <p className="text-indigo-600 font-bold">- Tecnologías: <span className="font-normal text-black">NodeJs, Express, HandleBars, EmbeddedJavascript, PUG, ReactJs, MySQL, PistgreSQL, MongoDB, TailwindCSS</span></p>
+            <p className="text-indigo-600 font-bold">- Certificado: <a target='_blank' href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-2a499f5b-c3db-448f-9fd1-bd0dc6e16df4.pdf" className="font-bold text-black hover:text-gray-700">Ver Certificado</a></p>
           </div>
-          <div className="bg-gray-200 p-3 shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold mb-4">React - La Guía Completa: Hooks Context Redux MERN +15 Apps <span className="text-indigo-500">(Udemy 66.5-Horas)</span></h2>
-              <p> - El curso incluye SSR, Gatsby, Nextjs, MERN, Styled Components, Context</p>
-              <p> - Crear proyectos con Redux y React Redux (con Hooks)</p>
-              <p> - Crear Más de 15 Proyectos con React</p>
-              <p> - Conocer React a fondo</p>
-              <p> - Conocer que es son los Hooks y crear tus propios Hooks</p>
-              <p> - Utilizar Fetch API y Axios con React para consumir API's</p>
-              <p> - Integrar React con otras tecnologías JavaScript como Local Storage</p>
-              <p> - Crear aplicaciones y request CRUD con React</p>
-              <p> - Conocer Server Side Rendering con React con Nextjs y Gatsby</p>
-              <p> - Deployment de Aplicaciones en React en Netlify, Heroku, Vercel y mucho más</p>
-              <p> - Crear Proyectos en React y escribir código React que siga las buenas prácticas</p>
-              <p> - Crear Proyectos con Nextjs y Gatsby</p>
-              <p> - Integrar Mongo Express y Node con React</p>
-              <p> - Aprender los Hooks useReducer y useContext</p>
+          <div className="bg-gray-200 p-5 shadow-lg shadow-indigo-600 rounded-lg">
+            <h2 className="text-xl font-bold mb-4">React - La Guía Completa: Hooks Context Redux MERN +15 Apps <span className="text-indigo-500">(Udemy)</span></h2>
+            <h3 className="text-indigo-600 font-bold">- Duración: <span className="font-normal text-black">66.5 Horas</span></h3>
+            <p className="text-indigo-600 font-bold">- Tecnologías: <span className="font-normal text-black">ReactJs, Context API, Redux, NextJs, NodeJs, TailwindCSS</span></p>
+            <p className="text-indigo-600 font-bold">- Certificado: <a target='_blank' href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-d4df7c7b-591f-481c-a6f2-6a831d47d4b7.pdf" className="font-bold text-black hover:text-gray-700">Ver Certificado</a></p>
           </div>
-          <div className="bg-gray-200 p-3 shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold mb-4">JavaScript Moderno Guía Definitiva Construye +20 Proyectos <span className="text-indigo-500">(Udemy 50-Horas)</span></h2>
-            <p> - Consumo de distintas REST APIS con JSON y Fetch API + Async / Await </p>
-            <p> - Desde lo básico del lenguaje así como conceptos más avanzados </p>
-            <p> - Aprender programación orientada a objetos con Classes (ES6) y Prototypes (ES5) </p>
-            <p> - Aprender conceptos nuevos en ES6 como Template Literals, arrow functions, generadores, iteradores, promises, async / await, fetch api </p>
-            <p> - Aprender programación Asincrona con Promises, Callbacks y Async Await </p>
-            <p> - Gran cantidad de proyectos, consumiendo REST API's y otros con código puro de JavaScript </p>
-            <p> - Agregar interacción a tus aplicaciones y páginas web </p>
+          <div className="bg-gray-200 p-5 shadow-lg shadow-indigo-600 rounded-lg">
+            <h2 className="text-xl font-bold mb-4">JavaScript Moderno Guía Definitiva Construye +20 Proyectos <span className="text-indigo-500">(Udemy)</span></h2>
+            <h3 className="text-indigo-600 font-bold">- Duración: <span className="font-normal text-black">50 Horas</span></h3>
+            <p className="text-indigo-600 font-bold">- Tecnologías: <span className="font-normal text-black">JavaScript, ReactJs, ES6</span></p>
+            <p className="text-indigo-600 font-bold">- Certificado: <a target='_blank' href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-b30729b3-16f2-4888-b46e-a9299c25e2ad.pdf" className="font-bold text-black hover:text-gray-700">Ver Certificado</a></p>
           </div>
-          <div className="bg-gray-200 p-3 shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold mb-4">Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL <span className="text-indigo-500">(Udemy 82.5-Horas)</span></h2>
-            <p> - Crear un íncreible Portafolio con muchos proyectos que te ayudarán a obtener un empleo</p>
-            <p> - Aprender y Dominar HTML y CSS para crear diseños modernos siguiendo buenas prácticas</p>
-            <p> - Aprender Metodologias HTML y CSS como Módulos y BEM</p>
-            <p> - Crear páginas web con HTML y CSS que puedas vender a tus clientes</p>
-            <p> - Escribir código JavaScript Moderno (ES6)</p>
-            <p> - Crear sitios web dínamicos con PHP y MYSQL</p>
-            <p> - Entender como funciona JavaScript, PHP y Fetch API</p>
-            <p> - Aplicar a un empleo de Desarrollador Web Junior</p>
-            <p> - Aprender a crear sitios dínamicos, que utilicen bases de datos para almacenar y obtener información</p>
-            <p> - Crear aplicaciones CRUD con PHP y MySQL</p>
-            <p> - Agregar pagos de PayPal a tus sitios web</p>
-            <p> - Crear aplicaciones seguras con PHP y MySQL</p>
+          <div className="bg-gray-200 p-5 shadow-lg shadow-indigo-600 rounded-lg">
+            <h2 className="text-xl font-bold mb-4">Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL <span className="text-indigo-500">(Udemy)</span></h2>
+            <h3 className="text-indigo-600 font-bold">- Duración: <span className="font-normal text-black">82.5 Horas</span></h3>
+            <p className="text-indigo-600 font-bold">- Tecnologías: <span className="font-normal text-black">HTML5, CSS3, JavaScript, PHP, MySQL</span></p>
+            <p className="text-indigo-600 font-bold">- Certificado: <a target='_blank' href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-a6da7c78-256f-4d6a-aed2-0779daf0e25a.pdf" className="font-bold text-black hover:text-gray-700">Ver Certificado</a></p>
           </div>
         </div>
     </div>
