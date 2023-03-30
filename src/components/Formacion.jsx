@@ -15,7 +15,12 @@ const Formacion = () => {
           </p>
         </div>
 
-        <div className="text-left flex gap-3">
+        <div className="mb-8 text-left shadow-lg shadow-indigo-600 p-3 rounded-lg">
+          <h2 className="mb-2">En el siguiente enlace puedes encontrar uno de los trabajos que he realizado:</h2>
+          <p className="font-bold text-xl"> - Proyecto Fullstack: <a href="https://fullstackelkin.com" className="text-indigo-600 hover:text-indigo-400" target='_blank'>Administrador de Clientes</a></p>
+        </div>
+
+        <div className="text-left flex flex-col md:flex-row gap-3">
           <p className="font-bold text-indigo-600">Encuentrame en: </p>
           <a href="https://www.linkedin.com/in/elkin-carre%C3%B1o/" target='_blank' className="flex gap-1">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
