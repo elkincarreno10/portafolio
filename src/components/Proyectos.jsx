@@ -1,4 +1,3 @@
-import { useState } from "react"
 
 const Proyectos = ({modal, setProyecto}) => {
 
@@ -31,7 +30,7 @@ const Proyectos = ({modal, setProyecto}) => {
 
   return (
     <div className="mx-8 md:mx-20 text-center mt-8">
-      <h1 className="uppercase text-2xl font-extrabold">Proyectos</h1>
+      <h1 className="uppercase text-3xl text-indigo-600 font-extrabold">Proyectos</h1>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 mt-8 text-left mb-10">
         <div 
           className="bg-gray-300 hover:bg-gray-400 p-4 rounded-lg shadow-xl flex flex-col gap-5 items-center max-w-xs cursor-pointer"

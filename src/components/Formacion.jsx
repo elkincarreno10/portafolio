@@ -2,7 +2,7 @@
 const Formacion = () => {
   return (
     <div className="w-auto lg:mx-auto md:max-w-2xl xl:max-w-4xl text-center mt-8 mx-8">
-        <h1 className="uppercase text-2xl font-extrabold">Sobre Mi</h1>
+        <h1 className="uppercase text-3xl text-indigo-600 font-extrabold">Sobre Mi</h1>
         <div className="mt-6 mb-10 space-y-3 text-left">
           <p>
             <span className="font-bold">Ingeniero Civil y Programador fullstack</span> en diferentes tecnologías en las que se destacan principalmente <span className="font-bold">Javascript y Python</span>, en las cuales puedo ofrecer soluciones eficientes y con buenas prácticas de programación tanto del lado del cliente con <span className="font-bold">ReactJs</span> como del servidor mediante <span className="font-bold">NodeJs y FastAPI</span>. Además, puedo utilizar sistemas de control de versiones como <span className="font-bold">Git y GitHub</span> mediante el flujo de trabajo <span className="font-bold">Git Flow</span>.

@@ -25,7 +25,7 @@ const Navegacion = () => {
           <Link 
             to='/habilidades' 
             className={`${location.pathname === '/habilidades' ? 'text-white bg-indigo-500' : ''} ${mostrarMenu ? 'block' : 'hidden'} md:block  cursor-pointer p-4 hover:text-white hover:bg-indigo-500`}
-          >Habilidades</Link>
+          >Skills</Link>
           <Link 
             to='/proyectos' 
             className={`${location.pathname === '/proyectos' ? 'text-white bg-indigo-500' : ''} ${mostrarMenu ? 'block' : 'hidden'} md:block cursor-pointer p-4 hover:text-white hover:bg-indigo-500`}
