@@ -1,5 +1,5 @@
-import { FaPython, FaReact, FaJsSquare, FaVuejs, FaPhp } from 'react-icons/fa'
-import { SiAmazonaws, SiTailwindcss, SiExpress, SiMongodb } from 'react-icons/si';
+import { FaReact, FaJsSquare, FaPhp } from 'react-icons/fa'
+import { SiTailwindcss, SiExpress, SiMongodb } from 'react-icons/si';
 import { DiMysql, DiPostgresql } from 'react-icons/di';
 import NodeJsLogo from './NodeJsLogo';
 import PythonLogo from './PythonLogo';
@@ -9,7 +9,7 @@ import VueLogo from './VueLogo';
 const Habilidades = () => {
   return (
     <div className="mx-8 md:max-w-2xl lg:max-w-2xl lg:mx-auto text-center mt-8">
-      <h1 className="uppercase text-3xl font-extrabold text-indigo-600">Habilidades</h1>
+      <h1 className="uppercase text-3xl font-extrabold text-indigo-600">Skills</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16 mt-8 text-left mb-20">
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">NodeJs</p>
