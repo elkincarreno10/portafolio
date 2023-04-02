@@ -21,15 +21,15 @@ const Habilidades = () => {
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">React</p>
-            <FaReact className='w-36 h-36 hover:text-sky-400 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125' />
+            <FaReact className='w-36 h-36 hover:text-sky-400 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125 rounded-lg hover:shadow-lg hover:p-2 hover:shadow-indigo-600' />
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">JavaScript</p>
-            <FaJsSquare className='w-36 h-36 hover:text-yellow-400 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125' />
+            <FaJsSquare className='w-36 h-36 hover:text-yellow-400 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125 rounded-lg hover:shadow-lg hover:p-2 hover:shadow-indigo-600' />
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">Express</p>
-            <SiExpress className='w-36 h-36 hover:text-stone-500  opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125' />
+            <SiExpress className='w-36 h-36 hover:text-stone-500 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125 rounded-lg hover:shadow-lg hover:p-2 hover:shadow-indigo-600' />
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">AWS</p>
@@ -37,15 +37,15 @@ const Habilidades = () => {
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">MongoDB</p>
-            <SiMongodb className='w-36 h-36 hover:text-green-700 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125' />
+            <SiMongodb className='w-36 h-36 hover:text-green-700 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125 rounded-lg hover:shadow-lg hover:p-2 hover:shadow-indigo-600' />
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">MySQL</p>
-            <DiMysql className='w-36 h-36 hover:text-blue-700 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125' />
+            <DiMysql className='w-36 h-36 hover:text-blue-700 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125 rounded-lg hover:shadow-lg hover:p-2 hover:shadow-indigo-600' />
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">PostgreSQL</p>
-            <DiPostgresql className='w-36 h-36 hover:text-blue-700 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125' />
+            <DiPostgresql className='w-36 h-36 hover:text-blue-700 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125 rounded-lg hover:shadow-lg hover:p-2 hover:shadow-indigo-600' />
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">VueJs</p>
@@ -53,11 +53,11 @@ const Habilidades = () => {
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">TailwindCSS</p>
-            <SiTailwindcss className='w-36 h-36 hover:text-sky-400 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125' />
+            <SiTailwindcss className='w-36 h-36 hover:text-sky-400 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125 rounded-lg hover:shadow-lg hover:p-2 hover:shadow-indigo-600' />
         </div>
         <div className='flex flex-col items-center'>
             <p className="text-center text-2xl font-extrabold mb-6">PHP</p>
-            <FaPhp className='w-36 h-36 hover:text-gray-700 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125' />
+            <FaPhp className='w-36 h-36 hover:text-indigo-900 opacity-20 hover:opacity-100 transition duration-500 ease-in-out transform hover:scale-125 rounded-lg hover:shadow-lg hover:p-2 hover:shadow-indigo-600' />
         </div>
       </div>
     </div>
