@@ -18,7 +18,11 @@ const Formacion = () => {
 
         <div className="mb-8 text-left shadow-lg shadow-indigo-600 p-3 rounded-lg">
           <h2 className="mb-2">En el siguiente enlace puedes encontrar uno de los trabajos que he realizado:</h2>
-          <p className="font-bold text-xl"> - Proyecto Fullstack: <a href="https://fullstackelkin.com" className="text-indigo-600 hover:text-indigo-400" target='_blank'>Administrador de Clientes</a></p>
+          <p className="font-bold text-xl">
+            <a href="https://fullstackelkin.com" className="text-indigo-600 hover:text-indigo-400" target='_blank'>
+              - Administrador de Clientes
+            </a>
+          </p>
         </div>
 
         <div className="text-left flex flex-col md:flex-row gap-3">
